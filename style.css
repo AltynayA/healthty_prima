@@ -1,0 +1,22 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    width: 1080px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(43,140,168);
+    background: radial-gradient(circle, rgba(43,140,168,1) 0%, rgba(137,222,226,1) 100%);
+}
+
+.questiondiv {
+    width:200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
